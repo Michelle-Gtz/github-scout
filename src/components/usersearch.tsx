@@ -55,7 +55,7 @@ const UserSearch = () => {
         <div className="dropdown-wrapper">
           <input
             type="text"
-            placeholder="Enter GitHb Username"
+            placeholder="Enter GitHub Username"
             value={username}
             onChange={(e) => {
               const val = e.target.value;
